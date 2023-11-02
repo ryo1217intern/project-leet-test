@@ -24,7 +24,7 @@ const InputTitleAndText = (
     <div className='flex flex-col p-2 space-y-4'>
       <div className=''>
         <label
-          className='pr-2'
+          className='pr-2 text-white'
         >
           LeetCode Title
         </label>
@@ -37,7 +37,7 @@ const InputTitleAndText = (
       </div>
       <div className=''>
         <label
-          className='pr-2'
+          className='pr-2 text-white'
         >
           LeetCode ExampleText
         </label>
@@ -76,7 +76,7 @@ function AnalysisStringTestCode(exampleText: string) {
   while (match = outputPattern.exec(exampleText)) {
       outputMatches.push(match[1]);
   }
-  
+
   return {
       InputArray: inputMatches,
       OutputArray: outputMatches

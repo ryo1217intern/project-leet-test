@@ -48,7 +48,7 @@ const CopyTestCode = (props: any) => {
   return (
     <div className='flex flex-col p-2 space-y-4'>
       <label
-        className='pr-2'
+        className='pr-2 text-white'
       >
         LeetCode TestCode
       </label>

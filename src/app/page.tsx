@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main>
-      <div>
+      <div className='bg-black'>
         <div  className='p-8'>
           <InputTitleAndText
             setTitle={setTitle}
