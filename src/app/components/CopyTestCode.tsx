@@ -17,19 +17,19 @@ const CopyTestCode = (props: any) => {
       }
 
       t.Run("Example1", func(t *testing.T) {
-        got := ${props.propTitle}("${props.propInputArray[0][0]}","${props.propInputArray[0][1]}")
+        got := No${props.propTitle}("${props.propInputArray[0][0]}","${props.propInputArray[0][1]}")
         want := "${props.propOutputArray[0]}"
         assertCorrectMessage(t, got, want)
       })
 
       t.Run("Example2", func(t *testing.T) {
-        got := ${props.propTitle}("${props.propInputArray[1][0]}","${props.propInputArray[1][1]}")
+        got := No${props.propTitle}("${props.propInputArray[1][0]}","${props.propInputArray[1][1]}")
         want := "${props.propOutputArray[1]}"
         assertCorrectMessage(t, got, want)
       })
 
       t.Run("Example2", func(t *testing.T) {
-        got := ${props.propTitle}("${props.propInputArray[2][0]}","${props.propInputArray[2][1]}")
+        got := No${props.propTitle}("${props.propInputArray[2][0]}","${props.propInputArray[2][1]}")
         want := "${props.propOutputArray[2]}"
         assertCorrectMessage(t, got, want)
       })
